@@ -16,8 +16,13 @@ Link Cartella Drive: https://drive.google.com/drive/folders/1Xm8pCSpW4N-RX-1HAF_
 La cartella Drive è divisa in varie sottocartelle:
 
 -Data: contiene i file Json delle due squadre prese in esame che sono stati forniti da SportsVU azienda che nel 2015-16 (stagione analizzata) si occupava di tracciare questi dati per l'NBA e i file CSV che servono per l'integrazione dei ruoli; questi file sono stati ottenuti da Basketball Reference e successivamente elaborati tramite delle query in Microsoft Access.
+
 -Dataset: contiene i dataset sia per la classificazione binaria che in quella multipla; entrambi i dataset sono divisi in Train e in Test.
+
 -Example: alcuni esempi di immagine; ci sono varie traiettorie, i markers valutati prima di decidere quello finale, il modello del campo e i file json originali
+
 -Model: contiene il modello CNN salvato sia per la classificazione binaria sia per la classificazione multipla
+
 -Result: cartella con alcuni risultati iniziali dei primi training e un file excel contenente il riassunto di training con più iperparametri.
+
 -Weights: pesi ottimali salvati con il callback per i checkpoint per ogni rete provata per questo progetto.
